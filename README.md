@@ -23,3 +23,12 @@ Run the tests with
 Or if you're feeling lazy, just `npm test`.
 
 Watch them go!
+
+Run with Docker
+------
+Build image
+`docker build -t <your username>/protractor-demo-app .`
+
+Run the image
+`docker run -p 49160:3456 -d <your username>/protractor-demo-app`
+
