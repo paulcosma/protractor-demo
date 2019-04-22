@@ -32,3 +32,5 @@ Build image
 Run the image
 `docker run -p 49160:3456 -d <your username>/protractor-demo-app`
 
+`docker run -d --restart always --name protractor-demo-app -p 49160:3456 paulcosma/protractor-demo-app`
+
